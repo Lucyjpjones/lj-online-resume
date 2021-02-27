@@ -18,7 +18,7 @@
     "react-scripts": "4.0.3",
     "react-tabs": "^3.2.0",
     "web-vitals": "^1.1.0",
-    "homepage": "."
+    "homepage": "./public"
   },
   "scripts": {
     "start": "react-scripts start",
