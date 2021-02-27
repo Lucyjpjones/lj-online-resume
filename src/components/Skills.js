@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import '../App.css'
 import './HeroSection.css'
 
@@ -15,14 +15,25 @@ function Skills() {
                     <i className='fab fa-python fa-md' style={{color:'#476A6F', padding: 10}}></i>
                     <i className='fas fa-gem fa-md' style={{color:'#476A6F', padding: 10}}></i>
                 </div>
+                <br />
                 <ul>
-                    <li><i class="fas fa-project-diagram"></i> Django</li>
-                    <li><i class="fas fa-project-diagram"></i> MongoDB</li>
-                    <li><i class="fas fa-project-diagram"></i> Flask</li>
-                    <li><i className='fas fa-database'></i> SQL</li>
-                    <li><i className='fas fa-database'></i> Postgres</li>
-                    <li><i className='fas fa-edit'></i> Balsamiq</li>
-                    <li><i className='fas fa-edit'></i> Bootstrap</li>
+                    <li className='about-list-item'><i class="fas fa-project-diagram" style={{'paddingBottom':10}}></i> 
+                        <p>Django</p>
+                        <p>Flask</p>
+                        <p>MongoDB</p>
+                    </li>
+                    <br />
+                    <li className='about-list-item'><i className='fas fa-database' style={{'paddingBottom':10}}></i>
+                        <p>SQL</p>
+                        <p>Postgres</p>
+                    </li>
+                    <br />
+                    <li className='about-list-item'><i className='fas fa-edit' style={{'paddingBottom':10}}></i> 
+                        <p>User Stories</p>
+                        <p>Balsamiq</p>
+                        <p>Bootstrap</p>
+                        <p>Materialize</p>
+                    </li>
                 </ul>
             </div>
         </section>

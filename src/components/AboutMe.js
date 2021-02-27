@@ -10,8 +10,7 @@ import Pskills from './Pskills'
 function AboutMe() {
 
     return (
-        <section id='aboutme'>
-            <div style={{'height':100}}></div>
+        <div id='aboutme' className='hero-container'>
             <img src='images/profile-img.jpg' alt='profile' className='profile-img' />
             <div className='about-me'>
                 <h2 style={{'marginBottom':10}}>Hey i'm Lucy</h2>
@@ -22,7 +21,7 @@ function AboutMe() {
                 <i className="fas fa-angle-double-down fa-3x bounce" style={{'marginTop': 20, color:'#B7CCB7'}}></i>
             </a> */}
             <Tabs style={{'width': '100%'}}>
-                <TabList style={{'display': 'flex', 'justifyContent': 'space-between', 'width': '50%', 'margin': 'auto', 'paddingBottom': 50 }}>
+                <TabList className='about-icons'>
                 <Tab style={{'display':'none'}}>
                 </Tab>
                 <Tab>
@@ -60,7 +59,7 @@ function AboutMe() {
                     <Pskills />
                 </TabPanel>
             </Tabs>
-        </section>
+        </div>
     )
 }
 

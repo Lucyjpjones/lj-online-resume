@@ -1,5 +1,5 @@
 .hero-container {
-    height: calc(100vh - 80px);
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 #homepage {
-    height: calc(100vh - 80px);
+    height: 100vh;
 }
 
 section {
@@ -63,6 +63,7 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
     filter: contrast(0.7);
     box-shadow: 3px 3px 9px #888888;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .bounce {
@@ -107,7 +108,11 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   }
 }
 
-li {
+.about-list-item, .about-list-item > i {
+  list-style: none;
+  font-size: 16px;
+}
+.about-icons {
   list-style: none;
 }
 .about-me {
@@ -119,6 +124,14 @@ li {
 }
 .about-me > h3 {
   font-size: 20px;
+}
+
+.about-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -145,6 +158,9 @@ li {
     border-radius: 50%;
     width: 170px;
     height: 170px;
+  }
+  .about-icons {
+    width: 50%;
   }
 }
 
