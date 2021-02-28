@@ -11,7 +11,7 @@ function AboutMe() {
 
     return (
         <div id='aboutme' className='hero-container'>
-            <img src='images/profile-img.jpg' alt='profile' className='profile-img' />
+            <img src={process.env.PUBLIC_URL +'/images/profile-img.jpg'} alt='profile' className='profile-img' />
             <div className='about-me'>
                 <h2 style={{'marginBottom':10}}>Hey i'm Lucy</h2>
                 <h3 style={{'marginBottom':10}}>I'm a Full Stack Developer based in London.</h3>
