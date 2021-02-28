@@ -8,10 +8,10 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import HeroSection from './components/HeroSection';
-import useVH from 'react-viewport-height';
+// import useVH from 'react-viewport-height';
 
 function App() {
-  const vh = useVH();
+  // const vh = useVH();
 
   return (
     <div className="vh">
