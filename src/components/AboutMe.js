@@ -14,8 +14,8 @@ function AboutMe() {
             <img src={process.env.PUBLIC_URL + '/images/profile-img.jpg'} alt='profile' className='profile-img' />
             <div className='about-me'>
                 <h2 style={{'marginBottom':10}}>Hey i'm Lucy</h2>
-                <h3 style={{'marginBottom':10}}>I'm a Full Stack Developer based in London.</h3>
-                <h4>I enjoy turning code into beautiful, simple designs. When I'm not coding, you'll find me on a holiday with a Gin, running a 5k or in a downward dog.</h4>
+                <h3 style={{'marginBottom':10}}>I'm a full stack developer based in London.</h3>
+                <h4>I enjoy turning code into beautiful, simple designs. When I'm not coding, you'll find me on holiday with a Gin, running a 5k or in a downward dog.</h4>
             </div>
             <Tabs style={{'width': '100%'}}>
                 <TabList className='about-icons'>
