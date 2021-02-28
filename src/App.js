@@ -17,10 +17,10 @@ function App() {
         <ScrollToTop>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' exact component={About} />
-          <Route path='/projects' exact component={Projects} />
-          <Route path='/contact' exact component={Contact} />
+          <Route path='/lj-online-resume/' exact component={Home} />
+          <Route path='/lj-online-resume/about' exact component={About} />
+          <Route path='/lj-online-resume/projects' exact component={Projects} />
+          <Route path='/lj-online-resume/contact' exact component={Contact} />
         </Switch>
         </ScrollToTop>
       </Router>
