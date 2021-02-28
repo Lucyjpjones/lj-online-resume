@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.cd93cb22.chunk.css",
-    "main.js": "./static/js/main.29c69d7a.chunk.js",
-    "main.js.map": "./static/js/main.29c69d7a.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.c180dbcc.js",
-    "runtime-main.js.map": "./static/js/runtime-main.c180dbcc.js.map",
-    "static/js/2.7f5a680d.chunk.js": "./static/js/2.7f5a680d.chunk.js",
-    "static/js/2.7f5a680d.chunk.js.map": "./static/js/2.7f5a680d.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.cd93cb22.chunk.css.map": "./static/css/main.cd93cb22.chunk.css.map",
-    "static/js/2.7f5a680d.chunk.js.LICENSE.txt": "./static/js/2.7f5a680d.chunk.js.LICENSE.txt"
+    "main.css": "/lj-online-resume/static/css/main.cd93cb22.chunk.css",
+    "main.js": "/lj-online-resume/static/js/main.095d9925.chunk.js",
+    "main.js.map": "/lj-online-resume/static/js/main.095d9925.chunk.js.map",
+    "runtime-main.js": "/lj-online-resume/static/js/runtime-main.5157b49c.js",
+    "runtime-main.js.map": "/lj-online-resume/static/js/runtime-main.5157b49c.js.map",
+    "static/js/2.7f5a680d.chunk.js": "/lj-online-resume/static/js/2.7f5a680d.chunk.js",
+    "static/js/2.7f5a680d.chunk.js.map": "/lj-online-resume/static/js/2.7f5a680d.chunk.js.map",
+    "index.html": "/lj-online-resume/index.html",
+    "static/css/main.cd93cb22.chunk.css.map": "/lj-online-resume/static/css/main.cd93cb22.chunk.css.map",
+    "static/js/2.7f5a680d.chunk.js.LICENSE.txt": "/lj-online-resume/static/js/2.7f5a680d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c180dbcc.js",
+    "static/js/runtime-main.5157b49c.js",
     "static/js/2.7f5a680d.chunk.js",
     "static/css/main.cd93cb22.chunk.css",
-    "static/js/main.29c69d7a.chunk.js"
+    "static/js/main.095d9925.chunk.js"
   ]
 }
