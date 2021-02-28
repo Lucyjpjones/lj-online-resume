@@ -11,7 +11,7 @@ import HeroSection from './components/HeroSection';
 import useVH from 'react-viewport-height';
 
 function App() {
-  useVH();
+  const vh = useVH();
 
   return (
     <div className="vh">
