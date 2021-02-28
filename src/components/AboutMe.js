@@ -17,9 +17,6 @@ function AboutMe() {
                 <h3 style={{'marginBottom':10}}>I'm a Full Stack Developer based in London.</h3>
                 <h4>I enjoy turning code into beautiful, simple designs. When I'm not coding, you'll find me on a holiday with a Gin, running a 5k or in a downward dog.</h4>
             </div>
-            {/* <a href='#education' className='arrow'>
-                <i className="fas fa-angle-double-down fa-3x bounce" style={{'marginTop': 20, color:'#B7CCB7'}}></i>
-            </a> */}
             <Tabs style={{'width': '100%'}}>
                 <TabList className='about-icons'>
                 <Tab style={{'display':'none'}}>
