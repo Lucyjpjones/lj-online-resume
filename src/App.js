@@ -8,11 +8,13 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import HeroSection from './components/HeroSection';
+import useVH from 'react-viewport-height';
 
 function App() {
+  useVH();
 
   return (
-    <>
+    <div className="vh">
       <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
         <Navbar />
@@ -25,7 +27,7 @@ function App() {
         </Switch>
         </ScrollToTop>
       </Router>
-    </>
+    </div>
   );
 }
 
