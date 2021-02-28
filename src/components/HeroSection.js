@@ -36,7 +36,7 @@ const HeroSection = () => {
                 startDelay={100}
                 backDelay={150}
             />
-            <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL + 'files/Resume-LucyJPJones.pdf'} className='btn btn--primary'>Get CV</a>
+            <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL + '/files/Resume-LucyJPJones.pdf'} className='btn btn--primary'>Get CV</a>
         </div>
     );
 }
