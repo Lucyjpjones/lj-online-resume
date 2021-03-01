@@ -28,7 +28,7 @@ function ContactForm() {
     }
   
     return (
-      <div id='contact-form' className='hero-container'>
+      <div id='contact-form' className='content-container'>
           <div className='contact-container' >
             <h2 style={{'fontSize':'30px', 'marginBottom':10}}>Get in Touch</h2>
             <h3 style={{'fontSize':'16px', 'marginBottom':20}}>

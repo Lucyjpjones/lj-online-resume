@@ -6,7 +6,7 @@ import CardItem from './CardItem';
 
 function ProjectCards() {
     return (
-      <div id='projects' className='hero-container'>
+      <div id='projects' className='content-container'>
         <h2>Check out my latest projects!</h2>
         <div className='cards__container'>
           <div className='cards__wrapper'>

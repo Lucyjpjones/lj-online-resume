@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Tabs, Tab, TabPanel, TabList } from 'react-tabs';
 import '../App.css'
 import './HeroSection.css'
@@ -10,7 +10,7 @@ import Pskills from './Pskills'
 function AboutMe() {
 
     return (
-        <div id='aboutme' className='hero-container'>
+        <div id='aboutme' className='content-container'>
             <img src={process.env.PUBLIC_URL + '/images/profile-img.jpg'} alt='profile' className='profile-img' />
             <div className='about-me'>
                 <h2 style={{'marginBottom':10}}>Hey i'm Lucy</h2>

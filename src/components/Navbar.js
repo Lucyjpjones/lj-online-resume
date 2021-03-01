@@ -1,7 +1,6 @@
 import Hamburger from 'hamburger-react';
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from './Button';
 import './Navbar.css';
 import './Footer.css';
 
