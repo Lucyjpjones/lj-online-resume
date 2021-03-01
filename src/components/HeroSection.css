@@ -17,6 +17,10 @@
   object-fit: contain;
 }
 
+#projects {
+  justify-content: initial;
+}
+
 .hero-container > h1 {
     color: #B7CCB7;
     font-size: 80px;
