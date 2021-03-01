@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../App.css'
 import AboutMe from '../AboutMe'
-import AboutSection from '../AboutSection'
+import TitleSection from '../TitleSection'
 
 function About() {
     return (
         <>
-            <AboutSection />
+            <TitleSection title='About me' navlink='#aboutme' />
             <AboutMe />
         </>
     )

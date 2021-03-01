@@ -2,18 +2,18 @@ import React from 'react'
 import '../App.css'
 import './HeroSection.css'
 
-function AboutSection() {
+function TitleSection(props) {
 
     return (
         <div className="hero-container">
             <h1>
-                <span className="underline--text">About Me</span>
+                <span className="underline--text">{props.title}</span>
             </h1>
-            <a href='#aboutme' className='arrow'>
+            <a href={props.navlink} className='arrow'>
                 <i className="fas fa-angle-double-down fa-3x bounce" style={{marginTop:'100px', color:'#B7CCB7'}}></i>
             </a>
         </div>
     )
 }
 
-export default AboutSection
+export default TitleSection

@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../App.css'
-import ProjectsSection from '../ProjectsSection'
+import TitleSection from '../TitleSection'
 import ProjectCards from '../ProjectCards'
 
 function Projects() {
     return (
         <>
-            <ProjectsSection />
+            <TitleSection title='Portfolio' navlink='#projects' />
             <ProjectCards />
         </>
     )

@@ -1,10 +1,9 @@
 import React from 'react'
 import ITyped from 'react-ityped';
-import { Button } from './Button';
 import '../App.css'
 import './HeroSection.css'
 
-const HeroSection = () => {
+function HeroSection() {
 
     const textStrings = ['Front End Developer', 'Back End Developer', 'Full Stack Developer']
 

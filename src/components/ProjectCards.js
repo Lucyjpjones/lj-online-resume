@@ -13,8 +13,7 @@ function ProjectCards() {
             <ul className='cards__items'>
               <CardItem
                 src={process.env.PUBLIC_URL + '/images/resume.png'}
-                text='
-                A resume site built from pure HTML and CSS'
+                text='A resume site built from pure HTML and CSS'
                 label='HTML & CSS'
                 path='https://github.com/Lucyjpjones/LucyJones-resume'
               />
