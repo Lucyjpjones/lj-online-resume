@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lj-online-resume/static/css/main.3f5cf331.chunk.css",
-    "main.js": "/lj-online-resume/static/js/main.bf9393b6.chunk.js",
-    "main.js.map": "/lj-online-resume/static/js/main.bf9393b6.chunk.js.map",
+    "main.css": "/lj-online-resume/static/css/main.8b12f03b.chunk.css",
+    "main.js": "/lj-online-resume/static/js/main.139309a8.chunk.js",
+    "main.js.map": "/lj-online-resume/static/js/main.139309a8.chunk.js.map",
     "runtime-main.js": "/lj-online-resume/static/js/runtime-main.5157b49c.js",
     "runtime-main.js.map": "/lj-online-resume/static/js/runtime-main.5157b49c.js.map",
-    "static/js/2.49271955.chunk.js": "/lj-online-resume/static/js/2.49271955.chunk.js",
-    "static/js/2.49271955.chunk.js.map": "/lj-online-resume/static/js/2.49271955.chunk.js.map",
+    "static/js/2.637e5164.chunk.js": "/lj-online-resume/static/js/2.637e5164.chunk.js",
+    "static/js/2.637e5164.chunk.js.map": "/lj-online-resume/static/js/2.637e5164.chunk.js.map",
     "index.html": "/lj-online-resume/index.html",
-    "static/css/main.3f5cf331.chunk.css.map": "/lj-online-resume/static/css/main.3f5cf331.chunk.css.map",
-    "static/js/2.49271955.chunk.js.LICENSE.txt": "/lj-online-resume/static/js/2.49271955.chunk.js.LICENSE.txt"
+    "static/css/main.8b12f03b.chunk.css.map": "/lj-online-resume/static/css/main.8b12f03b.chunk.css.map",
+    "static/js/2.637e5164.chunk.js.LICENSE.txt": "/lj-online-resume/static/js/2.637e5164.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5157b49c.js",
-    "static/js/2.49271955.chunk.js",
-    "static/css/main.3f5cf331.chunk.css",
-    "static/js/main.bf9393b6.chunk.js"
+    "static/js/2.637e5164.chunk.js",
+    "static/css/main.8b12f03b.chunk.css",
+    "static/js/main.139309a8.chunk.js"
   ]
 }
