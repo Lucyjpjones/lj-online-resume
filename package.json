@@ -12,6 +12,7 @@
     "hamburger-react": "^2.4.0",
     "ityped": "^1.0.3",
     "react": "^17.0.1",
+    "react-div-100vh": "^0.5.6",
     "react-dom": "^17.0.1",
     "react-ityped": "^1.0.2",
     "react-minimal-pie-chart": "^8.1.0",

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
 import './Navbar.css';
+import './Footer.css';
 
 function Navbar() {
     const [isOpen, setOpen] = useState(false);
@@ -36,6 +37,27 @@ function Navbar() {
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                             Contact
                         </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <div className='nav-links-social'>
+                        <ul className='social-icons'>
+                            <li className='social-icon-link'>
+                                <a target="_blank" rel="noreferrer" href='https://github.com/Lucyjpjones'>
+                                    <i className='fab fa-github'></i>
+                                </a>
+                            </li>
+                            <li className='social-icon-link'>
+                                <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/lucy-jones-1304/'>
+                                    <i className='fab fa-linkedin'></i>
+                                </a>
+                            </li>
+                            <li className='social-icon-link'>
+                                <a target="_blank" rel="noreferrer" href='https://www.instagram.com/lucyjpj/?hl=en'>
+                                    <i className='fab fa-instagram'></i>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
                     </li>
                 </ul>
             </div>

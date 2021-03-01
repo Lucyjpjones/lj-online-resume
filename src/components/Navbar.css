@@ -38,7 +38,7 @@
     z-index: 1;
   }
 
-  .nav-links {
+  .nav-links, .nav-links-social {
     color: #B7CCB7;
     text-align: center;
     padding: 2rem;
