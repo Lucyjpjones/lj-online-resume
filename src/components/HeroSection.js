@@ -9,7 +9,7 @@ const HeroSection = () => {
     const textStrings = ['Front End Developer', 'Back End Developer', 'Full Stack Developer']
 
     return (
-        <div id='homepage' className="hero-container">
+        <div className="hero-container">
             <h1>
                 <span>I am</span>
                 <span>Lucy Jones</span>

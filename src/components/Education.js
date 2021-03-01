@@ -6,7 +6,7 @@ import './TimeLine.css'
 function Education() {
 
     return (
-        <section id='education'>
+        <div id='education'>
             <div className='about-me' style={{'width':'60%', 'marginBottom':50}}>
                 <h3 style={{'marginBottom':20}}>Education</h3>
                 <div class="row history">
@@ -41,7 +41,7 @@ function Education() {
                 </div>
               </div>
             </div>
-        </section>
+        </div>
     )
 }
 

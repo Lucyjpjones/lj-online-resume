@@ -1,6 +1,6 @@
 
 .hero-container {
-    height: 100vh;
+    height: calc(100vh - 80px);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,19 +10,11 @@
     background-color: #f4f8f3;
 }
 
-#homepage {
-    height: calc(100vh - 80px);
-}
-
-section {
-  height: 100%;
-  /* height:100vh; */
-  width: 100%;
+#education, #work, #skills, #pskills {
   display: flex;
   flex-direction: column;
   align-items: center;
   object-fit: contain;
-  background-color: #f4f8f3;
 }
 
 .hero-container > h1 {

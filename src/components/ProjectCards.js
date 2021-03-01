@@ -6,7 +6,7 @@ import CardItem from './CardItem';
 
 function ProjectCards() {
     return (
-      <section id='projects'>
+      <div id='projects'>
         <h2>Check out my latest projects!</h2>
         <div className='cards__container'>
           <div className='cards__wrapper'>
@@ -41,7 +41,7 @@ function ProjectCards() {
             </ul>
           </div>
         </div>
-      </section>
+      </div>
     )
 }
 

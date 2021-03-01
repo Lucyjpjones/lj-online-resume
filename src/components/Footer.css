@@ -16,7 +16,7 @@
     text-decoration: none;
   }
   
-  .social-icons, .nav-links-social {
+  .social-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;

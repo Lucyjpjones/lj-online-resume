@@ -5,7 +5,7 @@ import './HeroSection.css'
 function Pskills() {
 
     return (
-        <section id='skills'>
+        <section id='pskills'>
             <div className='about-me' style={{'width':'60%', 'marginBottom':50}}>
                 <h3 style={{'marginBottom':20, 'width': '100%'}}>Personal Skills</h3>
                 <ul>

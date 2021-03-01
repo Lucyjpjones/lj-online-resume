@@ -6,7 +6,7 @@ import './TimeLine.css'
 function WorkHistory() {
 
     return (
-        <section id='work'>
+        <div id='work'>
             <div className='about-me' style={{'width':'60%', 'marginBottom':50}}>
                 <h3 style={{'marginBottom':20}}>Work History</h3>
                 <div class="row history">
@@ -34,7 +34,7 @@ function WorkHistory() {
                 </div>
               </div>
             </div>
-        </section>
+        </div>
     )
 }
 

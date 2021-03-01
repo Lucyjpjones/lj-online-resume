@@ -5,7 +5,7 @@ import './HeroSection.css'
 function Skills() {
 
     return (
-        <section id='skills'>
+        <div id='skills'>
             <div className='about-me' style={{'width':'60%', 'marginBottom':50}}>
                 <h3 style={{'marginBottom':20, 'width': '100%'}}>Technical Skills</h3>
                 <div style={{textAlign:'center'}}>
@@ -36,7 +36,7 @@ function Skills() {
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
     )
 }
 
