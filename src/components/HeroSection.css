@@ -168,6 +168,11 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   text-decoration: none;
 }
 
+.btn-cv:hover {
+  background-color: #fcc0c3;
+  color: #fff;
+}
+
   /* Social Icons */
 
   .social-icon-link {
