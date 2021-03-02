@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lj-online-resume/static/css/main.028e6c03.chunk.css",
-    "main.js": "/lj-online-resume/static/js/main.8c453fab.chunk.js",
-    "main.js.map": "/lj-online-resume/static/js/main.8c453fab.chunk.js.map",
+    "main.css": "/lj-online-resume/static/css/main.5fba9c5f.chunk.css",
+    "main.js": "/lj-online-resume/static/js/main.a710bb7a.chunk.js",
+    "main.js.map": "/lj-online-resume/static/js/main.a710bb7a.chunk.js.map",
     "runtime-main.js": "/lj-online-resume/static/js/runtime-main.5157b49c.js",
     "runtime-main.js.map": "/lj-online-resume/static/js/runtime-main.5157b49c.js.map",
     "static/css/2.150d169a.chunk.css": "/lj-online-resume/static/css/2.150d169a.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.7286e3da.chunk.js.map": "/lj-online-resume/static/js/2.7286e3da.chunk.js.map",
     "index.html": "/lj-online-resume/index.html",
     "static/css/2.150d169a.chunk.css.map": "/lj-online-resume/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.028e6c03.chunk.css.map": "/lj-online-resume/static/css/main.028e6c03.chunk.css.map",
+    "static/css/main.5fba9c5f.chunk.css.map": "/lj-online-resume/static/css/main.5fba9c5f.chunk.css.map",
     "static/js/2.7286e3da.chunk.js.LICENSE.txt": "/lj-online-resume/static/js/2.7286e3da.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5157b49c.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.7286e3da.chunk.js",
-    "static/css/main.028e6c03.chunk.css",
-    "static/js/main.8c453fab.chunk.js"
+    "static/css/main.5fba9c5f.chunk.css",
+    "static/js/main.a710bb7a.chunk.js"
   ]
 }
