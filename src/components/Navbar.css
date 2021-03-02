@@ -64,7 +64,7 @@
 
   @media only screen and (max-width: 600px) {
     .nav-menu {
-      height: 450px;
+      height: 500px;
       justify-content: initial;
     }
     .nav-links, .nav-links-social {
