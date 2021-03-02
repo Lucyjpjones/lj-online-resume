@@ -130,6 +130,10 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   font-size: 20px;
 }
 
+.about-me > h4 {
+  font-size: 16px;
+}
+
 .about-icons {
   display: flex;
   justify-content: space-between;
@@ -200,7 +204,7 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   }
 
   .skill-icon {
-    width: 100px;
+    width: 80px;
     padding: 5px;
     filter: grayscale(1);
   }
@@ -225,7 +229,7 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
 .progress-type {
   position: absolute;
   z-index: 30;
-  left: 20%;
+  left: 26%;
   font-weight: 400;
   height: inherit;
   color: #f7f7f7;
@@ -275,5 +279,8 @@ a:hover {
   }
   .fa-size {
     font-size: 1.3em;
+  }
+  .progress-type {
+    left: 17%;
   }
 }
