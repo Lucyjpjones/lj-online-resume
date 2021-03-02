@@ -2,10 +2,9 @@
     background: #f4f8f3;
     height: 15vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 2rem;
-    position: sticky;
+    position: sticky !important;
     top: 0;
     z-index: 999;
   }
@@ -51,6 +50,7 @@
     background-color: #B7CCB7;
     color: #F0F7EE;
     border-radius: 0;
+    text-decoration: none;
   }
 
   .navbar-logo {

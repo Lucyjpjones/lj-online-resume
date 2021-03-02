@@ -39,27 +39,3 @@
     content: "";
     background: #476A6F;
   }
-
-  .progress {
-    position: relative;
-    height: 16px;
-    margin-bottom: 5px;
-    margin-right: 10%;
-    margin-left: 10%;
-  }
-  
-  .progress-bar {
-    background-color: rgba(87, 40, 90, 0.2);
-  }
-  
-  .progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3%;
-    color: #f7f7f7;
-    font-size: 8px;
-    text-transform: none;
-    background-color: rgba(25, 25, 25, 0.2);
-  }
-  
