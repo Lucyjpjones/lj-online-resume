@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lj-online-resume/static/css/main.c859cc1f.chunk.css",
+    "main.css": "/lj-online-resume/static/css/main.e67d076f.chunk.css",
     "main.js": "/lj-online-resume/static/js/main.a710bb7a.chunk.js",
     "main.js.map": "/lj-online-resume/static/js/main.a710bb7a.chunk.js.map",
     "runtime-main.js": "/lj-online-resume/static/js/runtime-main.5157b49c.js",
@@ -10,14 +10,14 @@
     "static/js/2.7286e3da.chunk.js.map": "/lj-online-resume/static/js/2.7286e3da.chunk.js.map",
     "index.html": "/lj-online-resume/index.html",
     "static/css/2.150d169a.chunk.css.map": "/lj-online-resume/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c859cc1f.chunk.css.map": "/lj-online-resume/static/css/main.c859cc1f.chunk.css.map",
+    "static/css/main.e67d076f.chunk.css.map": "/lj-online-resume/static/css/main.e67d076f.chunk.css.map",
     "static/js/2.7286e3da.chunk.js.LICENSE.txt": "/lj-online-resume/static/js/2.7286e3da.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5157b49c.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.7286e3da.chunk.js",
-    "static/css/main.c859cc1f.chunk.css",
+    "static/css/main.e67d076f.chunk.css",
     "static/js/main.a710bb7a.chunk.js"
   ]
 }
