@@ -21,6 +21,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: inherit;
+    justify-content: space-between;
     position: absolute;
     top: 15vh;
     left: -100%;
@@ -62,7 +64,10 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .nav-menu {
+      height: 500px;
+    }
     .nav-links, .nav-links-social {
-      padding: 0px;
+      padding: 1.5rem;
     }
   }
