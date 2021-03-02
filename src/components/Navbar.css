@@ -67,4 +67,7 @@
       height: 450px;
       justify-content: initial;
     }
+    .nav-links, .nav-links-social {
+      padding: 0;
+    }
   }
