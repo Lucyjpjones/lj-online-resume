@@ -1,3 +1,4 @@
+
 .navbar {
     background: #f4f8f3;
     height: 15vh;
@@ -27,6 +28,9 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    justify-content: space-between;
+    padding: 5% 0;
+    list-style: none;
   }
 
   .nav-menu.active {
@@ -40,7 +44,6 @@
   .nav-links, .nav-links-social {
     color: #B7CCB7;
     text-align: center;
-    padding: 2rem;
     width: 100%;
     display: table;
     text-decoration: none;

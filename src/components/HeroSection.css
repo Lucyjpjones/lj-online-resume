@@ -238,6 +238,10 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   font-size: 2em;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   .hero-container > h1 {
     font-size: 55px;
