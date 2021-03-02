@@ -234,6 +234,10 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   background-color: transparent;
 }
 
+.fa-size {
+  font-size: 2em;
+}
+
 @media only screen and (max-width: 600px) {
   .hero-container > h1 {
     font-size: 55px;
@@ -264,5 +268,8 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   }
   .skill-icon {
     max-width: 20%;
+  }
+  .fa-size {
+    font-size: 1.3em;
   }
 }

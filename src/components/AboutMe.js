@@ -22,16 +22,16 @@ function AboutMe() {
                 <Tab style={{'display':'none'}}>
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-graduation-cap fa-lg shake"></i>
+                    <i class="about-icon fas fa-graduation-cap fa-size shake"></i>
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-briefcase fa-lg shake"></i>
+                    <i class="about-icon fas fa-briefcase fa-size shake"></i>
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-code fa-lg shake"></i>
+                    <i class="about-icon fas fa-code fa-size shake"></i>
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-user fa-lg shake"></i>
+                    <i class="about-icon fas fa-user fa-size shake"></i>
                 </Tab>
                 </TabList>
 
