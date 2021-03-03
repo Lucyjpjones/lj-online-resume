@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { createBrowserHistory } from 'history'
 import './App.css';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/pages/Home';
@@ -8,11 +9,13 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
+const history = createBrowserHistory();
+
 function App() {
 
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL} history={history}>
         <ScrollToTop>
         <Navbar />
         <div>
