@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lj-online-resume/static/css/main.26ab1bd5.chunk.css",
-    "main.js": "/lj-online-resume/static/js/main.baf12fb9.chunk.js",
-    "main.js.map": "/lj-online-resume/static/js/main.baf12fb9.chunk.js.map",
+    "main.js": "/lj-online-resume/static/js/main.4479ff76.chunk.js",
+    "main.js.map": "/lj-online-resume/static/js/main.4479ff76.chunk.js.map",
     "runtime-main.js": "/lj-online-resume/static/js/runtime-main.5157b49c.js",
     "runtime-main.js.map": "/lj-online-resume/static/js/runtime-main.5157b49c.js.map",
     "static/css/2.150d169a.chunk.css": "/lj-online-resume/static/css/2.150d169a.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.4ed387e0.chunk.js",
     "static/css/main.26ab1bd5.chunk.css",
-    "static/js/main.baf12fb9.chunk.js"
+    "static/js/main.4479ff76.chunk.js"
   ]
 }
