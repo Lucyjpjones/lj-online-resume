@@ -8,18 +8,26 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
-import NotFound from './components/pages/NotFound';
-
-const history = createBrowserHistory();
 
 function App() {
+
+  const express = require('express');
+  const path = require('path');
+  const app = express();
+
+  app.use(express.static(path.join(__dirname, 'build')));
+  
+  app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  });
+
+  app.listen(9000);
 
   return (
     <>
       <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
         <Navbar />
-        <div>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
@@ -27,7 +35,6 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='*' component={Home} />
         </Switch>
-        </div>
         </ScrollToTop>
       </Router>
     </>
