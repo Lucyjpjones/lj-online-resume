@@ -1,9 +1,8 @@
 import React from 'react'
 import '../App.css'
 import './HeroSection.css'
-import ListGroup from 'react-bootstrap/ListGroup'
 
-function Skills() {
+function TechSkills() {
 
     return (
         <div id='skills'>
@@ -31,4 +30,4 @@ function Skills() {
     )
 }
 
-export default Skills
+export default TechSkills

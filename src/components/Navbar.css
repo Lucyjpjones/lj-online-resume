@@ -62,6 +62,41 @@
     cursor: pointer;
   }
 
+  /* Social Icons */
+
+  .social-icon-link {
+    list-style: none;
+  }
+  .social-icon-link a{
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    margin: auto;
+  }
+  
+  .social-icon-link i {
+    color: #476A6F;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-icon-link i:hover {
+    color: #fcc0c3;
+  }
+
+  .social-icon-link a:hover {
+    text-decoration: none;
+  }
+
   @media only screen and (max-width: 600px) {
     .nav-menu {
       justify-content: initial;

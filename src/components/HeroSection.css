@@ -1,3 +1,4 @@
+/* General */
 
 .hero-container {
     min-height: 85vh;
@@ -21,13 +22,6 @@
   background-color: #f4f8f3;
 }
 
-#education, #work, #skills, #pskills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  object-fit: contain;
-}
-
 .hero-container > h1 {
     color: #B7CCB7;
     font-size: 80px;
@@ -42,116 +36,51 @@
     word-spacing: -20px;
 }
 
+.underline--text {
+  background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.18em;
+    background-position: 0 72%;
+    transition: background-size 0.25s ease-in;
+  }
+
+/* Animation */
+
+/* Arrow */
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-container > h1 {
+    font-size: 55px;
+  }
+  .typing-text {
+    font-size: 26px;
+  }
+}
+
+/* Homepage */
+
 .typing-text {
     color: #B7CCB7;
     font-size: 30px;
     line-height: 100px;
     height: 100px;
-}
-
-.underline--text {
-background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.18em;
-  background-position: 0 72%;
-  transition: background-size 0.25s ease-in;
-
-}
-
-.profile-img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: 0 0;
-    filter: contrast(0.7);
-    box-shadow: 3px 3px 9px #888888;
-    margin-bottom: 30px;
-    margin-top: 5px;
-}
-
-.bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-}
-
-.shake:hover {
-  -moz-animation: shake 1s infinite;
-  -webkit-animation: shake 1s infinite;
-  animation: shake 1s infinite;
-}
-   
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-
-.about-list-item, .about-list-item > i {
-  list-style: none;
-  font-size: 16px;
-}
-.about-icons {
-  list-style: none;
-}
-.about-me {
-  width: 50%;
-  margin-bottom: 5%;
-}
-.about-me > h2 {
-  font-size: 35px;
-}
-.about-me > h3 {
-  font-size: 20px;
-}
-
-.about-me > h4 {
-  font-size: 16px;
-}
-
-.about-icons {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-  margin: auto;
-  padding-bottom: 50px;
-}
-
-.about-icon {
-  color: #476A6F;
-}
-
-.about-icon:hover  {
-  cursor: pointer;
-}
-
-.rating {
-  color: red;
 }
 
 .btn-cv {
@@ -172,121 +101,4 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   background-color: #fcc0c3;
   color: #fff;
   text-decoration: none;
-}
-
-  /* Social Icons */
-
-  .social-icon-link {
-    list-style: none;
-  }
-  .social-icon-link a{
-    text-decoration: none;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 220px;
-    margin: auto;
-  }
-  
-  .social-icon-link i {
-    color: #476A6F;
-    justify-self: start;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-  }
-
-  .social-icon-link i:hover {
-    color: #fcc0c3;
-  }
-
-  .social-icon-link a:hover {
-    text-decoration: none;
-  }
-
-  .skill-icon {
-    width: 60px;
-    padding: 5px;
-    filter: grayscale(1);
-  }
-
-  .skill-icon:hover {
-    filter: grayscale(0);
-  }
-
-  /*--Personal skills--*/
-
-.progress {
-  position: relative;
-  height: 1.2rem !important;
-  margin-bottom: 8px;
-  background-color: #B7CCB750 !important;
-}
-
-.progress-bar {
-  background-color: #B7CCB7 !important;
-}
-
-.progress-type {
-  position: absolute;
-  z-index: 30;
-  left: 26%;
-  font-weight: 400;
-  height: inherit;
-  color: #f7f7f7;
-  font-size: 13px;
-  text-transform: none;
-  background-color: transparent;
-}
-
-.fa-size {
-  font-size: 2em;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 600px) {
-  .hero-container > h1 {
-    font-size: 55px;
-  }
-  .typing-text {
-    font-size: 26px;
-  }
-  .about-me {
-    width: 70%;
-    margin-bottom: 10%;
-  }
-  .about-me > h2 {
-    font-size: 30px;
-  }
-  .about-me > h3 {
-    font-size: 18px;
-  }
-  .about-me > h4 {
-    font-size: 14px;
-  }
-  .profile-img {
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
-  }
-  .about-icons {
-    width: 50%;
-  }
-  .skill-icon {
-    max-width: 20%;
-  }
-  .fa-size {
-    font-size: 1.3em;
-  }
-  .progress-type {
-    left: 17%;
-  }
 }

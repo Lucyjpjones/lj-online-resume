@@ -4,7 +4,7 @@ import './HeroSection.css'
 import { ProgressBar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Pskills() {
+function PersonalSkills() {
 
     return (
         <div id='pskills'>
@@ -27,4 +27,4 @@ function Pskills() {
     )
 };
 
-export default Pskills
+export default PersonalSkills

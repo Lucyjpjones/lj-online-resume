@@ -2,10 +2,11 @@ import React from 'react'
 import { Tabs, Tab, TabPanel, TabList } from 'react-tabs';
 import '../App.css'
 import './HeroSection.css'
+import './About.css'
 import WorkHistory from './WorkHistory'
 import Education from './Education'
-import Skills from './Skills'
-import Pskills from './Pskills'
+import TechSkills from './TechSkills'
+import PersonalSkills from './PersonalSkills'
 
 function AboutMe() {
 
@@ -49,11 +50,11 @@ function AboutMe() {
                 </TabPanel>
                 <TabPanel>
                     <h2>
-                        <Skills />
+                        <TechSkills />
                     </h2>
                 </TabPanel>
                 <TabPanel>
-                    <Pskills />
+                    <PersonalSkills />
                 </TabPanel>
             </Tabs>
         </div>
