@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import NotFound from './components/pages/NotFound';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' component={About} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
+          <Route component={NotFound} />
         </Switch>
         </ScrollToTop>
       </Router>
