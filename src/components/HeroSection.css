@@ -171,6 +171,7 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
 .btn-cv:hover {
   background-color: #fcc0c3;
   color: #fff;
+  text-decoration: none;
 }
 
   /* Social Icons */
@@ -209,7 +210,7 @@ background-image: linear-gradient(120deg, #FDD8DA 0%, #FDD8DA 100%);
   }
 
   .skill-icon {
-    width: 80px;
+    width: 60px;
     padding: 5px;
     filter: grayscale(1);
   }
