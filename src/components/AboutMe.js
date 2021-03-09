@@ -1,5 +1,7 @@
 import React from 'react'
 import { Tabs, Tab, TabPanel, TabList } from 'react-tabs';
+import { BsBriefcase, BsCodeSlash } from "react-icons/bs";
+import { IoSchoolOutline, IoPersonOutline } from "react-icons/io5";
 import '../App.css'
 import './HeroSection.css'
 import './About.css'
@@ -23,16 +25,16 @@ function AboutMe() {
                 <Tab style={{'display':'none'}}>
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-graduation-cap fa-size shake"></i>
+                    <IoSchoolOutline className="about-icon fa-size fshake"/>
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-briefcase fa-size shake"></i>
+                    <BsBriefcase className="about-icon fa-size shake" />
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-code fa-size shake"></i>
+                    <BsCodeSlash className="about-icon fa-size shake" />
                 </Tab>
                 <Tab>
-                    <i class="about-icon fas fa-user fa-size shake"></i>
+                    <IoPersonOutline className="about-icon fa-size shake" />
                 </Tab>
                 </TabList>
 
