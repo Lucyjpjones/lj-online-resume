@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
-import './Cards.css';
-import './HeroSection.css'
+import './styles/Cards.css';
+import './styles/HeroSection.css'
 import CardItem from './CardItem';
 
 function ProjectCards() {

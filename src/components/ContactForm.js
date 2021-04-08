@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../App.css'
-import './HeroSection.css'
-import './ContactForm.css'
+import './styles/HeroSection.css'
+import './styles/ContactForm.css'
 import emailjs from 'emailjs-com';
 
 function ContactForm() {
@@ -35,13 +35,15 @@ function ContactForm() {
                 Whether you have a question, want to hire me or just want to connect, please feel free to send me a message.
             </h3>
             <form className="contact-form" onSubmit={sendEmail} >
-                <div className='field'>
-                    <label>First Name</label>
-                    <input value={firstName} onChange={e => setFirstName(e.target.value)} type="text" name="firstName" />
-                </div>
-                <div className='field'>
-                    <label>Last Name</label>
-                    <input value={lastName} onChange={e => setLastName(e.target.value)} type="text" name="lastName" />
+                <div className="field-names">
+                    <div className='field field-name'>
+                        <label>First Name</label>
+                        <input value={firstName} onChange={e => setFirstName(e.target.value)} type="text" name="firstName" />
+                    </div>
+                    <div className='field field-name'>
+                        <label>Last Name</label>
+                        <input value={lastName} onChange={e => setLastName(e.target.value)} type="text" name="lastName" />
+                    </div>
                 </div>
                 <div className='field'>
                     <label>Email</label>

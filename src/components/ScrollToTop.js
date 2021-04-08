@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
-import './Navbar.css';
+import './styles/Navbar.css';
 
 function ScrollToTop({children}) {
     const {pathname} = useLocation();

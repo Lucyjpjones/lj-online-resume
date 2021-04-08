@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { Link } from 'react-router-dom'
-import './HeroSection.css'
+import './styles/HeroSection.css'
 
 function NotFoundSection(props) {
 

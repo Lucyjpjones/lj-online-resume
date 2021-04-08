@@ -153,8 +153,8 @@ The <u>key priorities</u> for my user are as follows:
 - [**Google fonts**](https://fonts.google.com/)
   - Google fonts were used to import the fonts into the CSS file which is used on all pages throughout the project.
 
-- [**Font Awesome 4.7.0**](https://fontawesome.com/)
-  - Font Awesome was used to add icons for aesthetic and UX purposes.
+- [**React Icons**](https://react-icons.github.io/react-icons)
+  - React icons used to add icons for aesthetic and UX purposes.
 
 - [**VScode**](https://code.visualstudio.com/)
   -  Code editor used for building web application.

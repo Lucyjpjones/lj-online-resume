@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsChevronDoubleDown } from "react-icons/bs";
 import '../App.css'
-import './HeroSection.css'
+import './styles/HeroSection.css'
 
 function TitleSection(props) {
 

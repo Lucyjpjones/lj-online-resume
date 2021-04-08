@@ -1,6 +1,14 @@
 .contact-container {
   width: 60%;
 }
+.field-names {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field-name {
+  width: 48%;
+}
 
 .field {
     margin-bottom: 10px;
