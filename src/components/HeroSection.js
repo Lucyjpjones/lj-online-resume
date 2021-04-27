@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ITyped from 'react-ityped';
 import '../App.css'
 import './styles/HeroSection.css'
+import { RiDownloadLine } from "react-icons/ri";
 
 function HeroSection() {
 
     const textStrings = ['Front End Developer', 'Back End Developer', 'Full Stack Developer']
+
+    const [innerText, setInnerText] = useState(false);
 
     return (
         <div className="hero-container">
@@ -21,7 +24,15 @@ function HeroSection() {
                 startDelay={100}
                 backDelay={150}
             />
-            <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL + '/files/Resume-LucyJPJones.pdf'} className='btn-cv'>Get CV</a>
+            <a 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    href={process.env.PUBLIC_URL + '/files/Resume-LucyJPJones.pdf'} 
+                    className='btn-cv' 
+                    onMouseEnter={() => setInnerText(true)}
+                    onMouseLeave={() => setInnerText(false)} >
+                        {innerText ? <RiDownloadLine color= "#fcc0c3" size="1em" /> : <div>Get CV</div>}
+                </a>
         </div>
     );
 }

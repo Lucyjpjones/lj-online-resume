@@ -85,7 +85,7 @@
 
 .btn-cv {
   padding: 6px 14px;
-  border-radius: 2px;
+  border-radius: 0;
   outline: none;
   border: none;
   cursor: pointer;
@@ -95,10 +95,18 @@
   border: 2px solid #fcc0c3;
   border-radius: 0px;
   text-decoration: none;
+  height: 60px;
+  width: 170px;
+  text-align: center;
+}
+
+.btn-cv div, .btn-cv div:hover {
+  padding: 6px 14px;
 }
 
 .btn-cv:hover {
-  background-color: #fcc0c3;
-  color: #fff;
+  color: #fcc0c3;
+  border: 2px solid #fcc0c3;
   text-decoration: none;
+  padding: 14px;
 }

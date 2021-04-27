@@ -3,6 +3,7 @@ import '../App.css'
 import './styles/HeroSection.css'
 import './styles/ContactForm.css'
 import emailjs from 'emailjs-com';
+import { RiDownloadLine } from "react-icons/ri";
 
 function ContactForm() {
 
@@ -11,6 +12,12 @@ function ContactForm() {
     const [email, setEmail] = useState("")
     const [topic, setTopic] = useState("")
     const [message, setMessage] = useState("")
+
+    const submitText = 'Send message';
+    const submitIcon = 'Send icon';
+
+    const [submitInner, setsubmitInner] = useState(submitText)
+
 
     function sendEmail(e) {
       e.preventDefault();
@@ -61,7 +68,7 @@ function ContactForm() {
                     <label>Message</label>
                     <textarea className='field' value={message} onChange={e => setMessage(e.target.value)} name="message" />
                 </div>
-                <input type="submit" value="Send Message" />
+                <input type="submit" value={submitInner} onMouseEnter={() => setsubmitInner(submitIcon)} onMouseLeave={() => setsubmitInner(submitText)} />
             </form>
         </div>
       </div>

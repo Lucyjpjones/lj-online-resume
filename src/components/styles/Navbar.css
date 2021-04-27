@@ -35,6 +35,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    padding-bottom: 15vh;
   }
 
   .nav-links, .nav-links-social {
@@ -100,7 +101,7 @@
 
   @media only screen and (max-width: 600px) {
     .nav-menu {
-      justify-content: initial;
+      justify-content: space-around;
     }
     
     .nav-links, .nav-links-social {

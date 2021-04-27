@@ -8,8 +8,11 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import NotFound from './components/pages/NotFound';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
 
   return (
     <>

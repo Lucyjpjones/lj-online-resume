@@ -7,7 +7,7 @@ function About() {
     return (
         <>
             <TitleSection title='About me' navlink='#aboutme' />
-            <AboutMe />
+            <AboutMe data-aos="slide-up" data-aos-duration='800'/>
         </>
     )
 }

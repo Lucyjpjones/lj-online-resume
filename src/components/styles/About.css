@@ -11,21 +11,6 @@
     margin-bottom: 30px;
     margin-top: 5px;
   }
-
-  #education, #work, #skills, #pskills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    object-fit: contain;
-  }
-  
-  .about-list-item, .about-list-item > i {
-    list-style: none;
-    font-size: 16px;
-  }
-  .about-icons {
-    list-style: none;
-  }
   .about-me {
     width: 50%;
   }
@@ -35,76 +20,13 @@
   .about-me > h3 {
     font-size: 20px;
   }
-  
   .about-me > h4 {
     font-size: 16px;
-  }
-  
-  .about-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin: auto;
-    padding-bottom: 50px;
-  }
-  
-  .about-icon {
-    color: #476A6F;
-  }
-  
-  .about-icon:hover  {
-    cursor: pointer;
-  }
-  
-   /*--Tech skills--*/
-  
-  .skill-icon {
-    width: 60px;
-    padding: 5px;
-    filter: grayscale(1);
-  }
-  
-  .skill-icon:hover {
-    filter: grayscale(0);
-  }
-  
-  /*--Personal skills--*/
-  
-  .progress {
-    position: relative;
-    height: 1.2rem !important;
-    margin-bottom: 8px;
-    background-color: #B7CCB750 !important;
-  }
-  
-  .progress-bar {
-    background-color: #B7CCB7 !important;
-  }
-  
-  .progress-type {
-    position: absolute;
-    z-index: 30;
-    left: 26%;
-    font-weight: 400;
-    height: inherit;
-    color: #f7f7f7;
-    font-size: 13px;
-    text-transform: none;
-    background-color: transparent;
-  }
-  
-  .fa-size {
-    font-size: 2em;
-  }
-  
-  a:hover {
-    text-decoration: none;
   }
 
   /* Animation */
 
-  /* About icons */
-.shake:hover {
+  .shake:hover {
     -moz-animation: shake 1s infinite;
     -webkit-animation: shake 1s infinite;
     animation: shake 1s infinite;
@@ -146,16 +68,10 @@
       width: 170px;
       height: 170px;
     }
-    .about-icons {
-      width: 50%;
-    }
-    .skill-icon {
-      max-width: 20%;
-    }
-    .fa-size {
-      font-size: 1.3em;
-    }
-    .progress-type {
-      left: 17%;
+  }
+
+  @media only screen and (min-width: 980px) {
+    .about-me {
+      width: 40%;
     }
   }
