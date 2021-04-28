@@ -37,6 +37,12 @@ function ProjectCards() {
                 label='Python & Django'
                 path='https://github.com/Lucyjpjones/lj-fscr'
               />
+              <CardItem
+                src={process.env.PUBLIC_URL + '/images/mjbe-resume.png'}
+                text='An online resume built for a client to present their current qualifications and experience to future employers.'
+                label='React'
+                path='https://github.com/Lucyjpjones/mjbe-resume'
+              />
             </ul>
           </div>
         </div>
