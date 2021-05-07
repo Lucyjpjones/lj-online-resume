@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/">
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
         <Navbar />
         <Switch>
