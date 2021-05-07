@@ -1,5 +1,6 @@
 {
   "name": "lj-online-resume",
+  "homepage": "https://lucythedeveloper.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
