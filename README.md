@@ -1,5 +1,4 @@
 ![Responsive resume](static/assets/images/readme/lj-online-resume-img.png)
-![Project title](static/assets/images/readme/title.png)
 
 ---
 
