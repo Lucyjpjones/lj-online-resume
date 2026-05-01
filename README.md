@@ -1,4 +1,4 @@
-![Responsive resume](static/assets/images/readme/lj-online-resume-img.png)
+<img src="static/assets/images/readme/lj-online-resume-img.png" alt="Responsive resume" width="50%">
 
 ---
 
@@ -66,8 +66,6 @@ The online resume will aim to give users proof of my ability and confidence in w
 - A simple colour scheme to keep the design looking clean and elegant.
 - A pale background used throughout the site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. It is also easier on the eye than a classic white.
 - I created my final palette using [Coolors](https://coolors.co).
-
-<img src="static/assets/images/readme/palette.png">
 
 **Typography**
 - 'Cutive Mono' has been used as the main font used throughout the website with Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly. It is a classic typewriter typeface used frequently in programming, so it is both attractive and appropriate.
