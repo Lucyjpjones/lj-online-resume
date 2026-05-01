@@ -1,4 +1,5 @@
-<img src="static/assets/images/readme/lj-online-resume-img.png" alt="Responsive resume" width="50%">
+<img src="static/assets/images/readme/lj-online-resume-home.png" alt="Responsive resume" width="50%">
+<img src="static/assets/images/readme/lj-online-resume-menu.png" alt="Responsive resume" width="50%">
 
 ---
 
