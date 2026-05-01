@@ -1,15 +1,11 @@
-<div align="center">
-  <img src="static/assets/images/readme/responsive-react-resume.png">
-  <img src="static/assets/images/readme/title.png">
-<hr>
+![Responsive resume](static/assets/images/readme/lj-online-resume-img.png)
+![Project title](static/assets/images/readme/title.png)
+
+---
 
 **A custom site built to present my skills, completed projects, education and previous work experience to potential employers and clients.**
 
 This app was built using [VScode](https://code.visualstudio.com/) and deployed to [GitHub](https://pages.github.com/).
-
-[Check me out](https://lucyjpjones.github.io/lj-online-resume/)
-
-</div>
 
 ---
 
